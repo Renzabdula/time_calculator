@@ -1,6 +1,6 @@
 def add_time(start, duration, day_of_week = False):
   days_of_the_week_array = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-  days_of_the_week_index = {"monday" : 0,"tuesday" : 1,"wednesday" : 2,"thursday" : 3, "friday" : 4, "saturday" : 5, "sunday" : 6}
+  days_of_the_week_index = {"monday" : 1,"tuesday" : 2,"wednesday" : 3,"thursday" : 4, "friday" : 5, "saturday" : 6, "sunday" : 7}
   
   duration_tuple = duration.partition(":")
   duration_hour = int(duration_tuple[0])
